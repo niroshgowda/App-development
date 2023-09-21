@@ -1,0 +1,88 @@
+/* Contact.css */
+
+.contact-us {
+    background-image: url('https://res.cloudinary.com/tripactions/image/upload/v1675283146/compose/blog/heres-why-team-travel-is-ready-for-takeoff-in-2023.jpg'); 
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .contact-form {
+    background-color: rgba(0, 0, 0, 0.316);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 750px;
+    width: 400px;
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+  }
+  
+  .error {
+    color: #ff0000;
+    font-size: 14px;
+  }
+  
+  button[type="submit"] {
+    background-color: #0080ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    margin-top: 10px; /* Add some space between the form and contact details */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .contact-details {
+    margin-top: 20px; 
+    margin-right: 750px;
+  }
+  
+  .contact-details h3 {
+    color: #1b1c1c;
+  }
+  
+  .contact-details p {
+    margin: 5px 0;
+    color: #302f2e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+  }
+  
