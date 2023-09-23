@@ -1,0 +1,35 @@
+/* WorldMap.css */
+
+/* Style for the container div */
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  /* Style for the map container */
+  .ComposableMap {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style for individual countries */
+  .Geography {
+    fill: #EAEAEC; /* Fill color for countries */
+    stroke: #D6D6DA; /* Border color for countries */
+    stroke-width: 0.5; /* Border width for countries */
+    cursor: pointer; /* Change cursor on hover */
+  }
+  
+  /* Style for hover effect on countries */
+  .Geography:hover {
+    fill: #B4D4E5; /* Fill color for countries on hover */
+    stroke: #333; /* Border color for countries on hover */
+  }
+  
+  /* Style for the map title */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
