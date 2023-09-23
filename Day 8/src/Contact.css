@@ -1,0 +1,142 @@
+/* ContactUs.css */
+
+/* Container for the entire page */
+.contact-us-container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+  color: #333;
+  margin-top: 70px;
+}
+
+/* Background image overlay */
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://locallens.com/wp-content/uploads/2020/01/photographer-santorini-honeymoon-photohsoot-7-1.jpg'); /* Replace with your image path */
+  background-size: cover;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+/* Contact information */
+.contact-info {
+  text-align: center;
+  
+}
+
+.contact-info h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 18px;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+/* Contact details (phone and email) */
+.contact-details {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.phone,
+.email {
+  text-align: center;
+  margin: 0 30px;
+}
+
+.phone h3,
+.email h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.phone p,
+.email p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Contact form */
+.contact-form {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form h2 {
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  font-size: 18px;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+textarea {
+  height: 150px;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .contact-details {
+    flex-direction: column;
+  }
+
+  .phone,
+  .email {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}
