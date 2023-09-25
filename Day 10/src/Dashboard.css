@@ -1,0 +1,96 @@
+.Adminback{
+    background-image:url("https://www.photojaanic.com/blog/wp-content/uploads/sites/2/2018/03/travel-photography-tips-photojaanic_-17.jpg");
+     background-size:cover;
+    background-attachment: fixed;
+    height:100vh;
+  
+     
+  }
+  .logout
+  {
+  position:absolute;
+  left:45%;
+  font-size:xx-large;
+  }
+  * .buttonn{
+  position:absolute;
+  left:45%;
+  top:130%;
+  color:white;
+  background-color: rgb(2, 2, 8);
+  } 
+  .dashboard-container {
+    background-color: rgba(5, 5, 18, 0.399);
+    color: white;
+    width: 250px;
+    height:90%;
+    position: fixed;
+    top: 9.90%;
+  }
+  
+  header {
+    background-color:rgb(1, 1, 8);
+    padding: 20px;
+    /* text-align: center; */
+  }
+  
+  .sidebar-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* .widget {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  } */
+  
+  .widget-title1 a{
+    color: white;
+    position:absolute;
+    left:2%;
+    top:15%;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .widget-title2 a{
+    color: white;
+    position:absolute;
+    left:3%;
+    top:25%;
+    text-decoration: none;
+    font-weight: bold;
+  
+    
+  }
+  .widget-title3 a{
+    color: white;
+    position:absolute;
+    left:3%;
+    top:34%;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .widget-title4 a{
+    color: white;
+    position:absolute;
+    left:3%;
+    top:43%;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .abc {
+    color: white;
+    position:absolute;
+    left:3%;
+    top:90%;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  
