@@ -1,0 +1,19 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: posts-service-route
+          uri: lb://POSTS-SERVER
+          predicates:
+            - Path=/posts/**
+
+        - id: profile-service-route
+          uri: lb://PROFILE-SERVER
+          predicates:
+            - Path=/profile/**
+            
+        - id: login-service-route
+          uri: lb://LOGIN-SERVER
+          predicates:
+            - Path=/auth/**
+            
