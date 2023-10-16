@@ -1,0 +1,49 @@
+.login-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://iso.500px.com/wp-content/uploads/2016/01/sanfrancisco_cover.jpg");
+    background-size: cover;
+  }
+  
+  .login-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 70px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-form button {
+    width: 50%;
+    padding: 10px;
+    background-color: #da772c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 10px;
+  }
+  .account{
+    position: absolute;
+    left: 650px;
+    bottom: 220px;
+  }
+  
