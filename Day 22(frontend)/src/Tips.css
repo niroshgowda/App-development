@@ -1,0 +1,74 @@
+/* src/components/Tips.css */
+
+.tips-container {
+    background-image: url('https://www.capturelandscapes.com/wp-content/uploads/2016/11/knuten-sunstar-sunrise-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: #201f1f;
+    text-align: center;
+}
+
+.tips-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.tips-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Apply different styles to each tip item */
+.tip-item-0 {
+    background-color: rgba(250, 250, 250, 0.919);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.tip-item-1 {
+    background-color: rgba(255, 200, 200, 0.919);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.tip-item-2 {
+    background-color: rgba(252, 251, 251, 0.919);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.tip-item-3 {
+    background-color: rgba(255, 255, 200, 0.919);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.tip-item-4 {
+    background-color: rgba(200, 255, 200, 0.919);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+/* ... Repeat for other tip items ... */
+
+.tip-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.tip-content {
+    font-size: 16px;
+    line-height: 1.5;
+}
